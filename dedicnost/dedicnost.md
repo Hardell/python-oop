@@ -71,10 +71,10 @@ class Zamestnanec:
 
     def cerpej_dovolenou(self, pocet_hodin):
         if self.dovolena >= pocet_hodin:
-        self.dovolena -= pocet_hodin
-        return "Užij si to."
+            self.dovolena -= pocet_hodin
+            return "Užij si to."
         else:
-        return f"Máš nárok je na {self.dovolena} hodin."
+            return f"Máš nárok je na {self.dovolena} hodin."
 
 
 class Manazer(Zamestnanec):
