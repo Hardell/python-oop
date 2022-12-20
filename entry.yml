@@ -1,6 +1,5 @@
 title: Objektově orientované programování v Pythonu
-lead: Objektově orientované programování v Pythonu
+lead: Kurz objektově orientovaného programování v jazyce Python
 image: python.svg
-lessons:
-  - tridy
-  - dedicnost
+chapters:
+  - zaklady-oop
