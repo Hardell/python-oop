@@ -2,7 +2,6 @@ title: Třídy a objekty
 lead: Třídy a objekty jsou způsob, jak strukturovat program. Tato kapitola nás uvede do světa objektově orientovaného programování.
 sections:
   - tridy
-  - init
-  - str
-  - excs
+  - dalsi_metody
+  - chranene-atributy-vlastnosti
   - cteni-na-doma
