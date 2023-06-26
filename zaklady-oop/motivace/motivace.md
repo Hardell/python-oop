@@ -40,7 +40,7 @@ else:
 Tento kód už je poměrně dlouhý a pokud bychom ho potřebovali na více místech (např. máme individuální žádosti a hromadné zadávání dovolené o Vánocích), bylo by dobré umístit jej do funkce.
 
 ```py
-def taky_holiday(days):
+def holiday_request(days):
     if days >= employee_1["holiday_entitlement"]:
         employee_1["holiday_entitlement"] = employee_1["holiday_entitlement"] - 10
         print("Dovolená schválena.")
