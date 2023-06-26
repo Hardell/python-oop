@@ -30,8 +30,8 @@ Tento řádek kódu sice sníží nárok na dovolenou, před schválením dovole
 
 ```py
 days = int(input("Zadejte počet dní dovolené: "))
-if days >= employee_1["holiday_entitlement"]:
-    employee_1["holiday_entitlement"] = employee_1["holiday_entitlement"] - 10
+if days > employee_1["holiday_entitlement"]:
+    employee_1["holiday_entitlement"] = employee_1["holiday_entitlement"] - days
     print("Dovolená schválena.")
 else:
     print("Na tolik dní už nemáš nárok.")
@@ -41,8 +41,8 @@ Tento kód už je poměrně dlouhý a pokud bychom ho potřebovali na více mís
 
 ```py
 def taky_holiday(days):
-    if days >= employee_1["holiday_entitlement"]:
-        employee_1["holiday_entitlement"] = employee_1["holiday_entitlement"] - 10
+    if days > employee_1["holiday_entitlement"]:
+        employee_1["holiday_entitlement"] = employee_1["holiday_entitlement"] - days
         print("Dovolená schválena.")
     else:
         print("Na tolik dní už nemáš nárok.")
